@@ -11,9 +11,7 @@ Pod::Spec.new do |s|
 
   s.platform = :ios, "5.0"
 
-  s.dependency "spatialite"
-  s.dependency "FMDB/standalone"
-  s.dependency "sqlite3/rtree"
+  s.dependency "FMDB"
   s.dependency "ShapeKit"
   s.requires_arc = true
 
