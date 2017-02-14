@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
 
   s.platform = :ios, "5.0"
 	
+  s.dependency "FMDB/custom" :git => 'https://github.com/halijoe/fmdb.git'	
   s.dependency "ShapeKit"
   s.requires_arc = true
 
