@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
   s.source  = { :git => "https://github.com/andreacremaschi/SpatialDBKit.git", :tag => "0.1.1"}
 
   s.platform = :ios, "5.0"
-
-  s.dependency "FMDB"
+	
   s.dependency "ShapeKit"
   s.requires_arc = true
 
